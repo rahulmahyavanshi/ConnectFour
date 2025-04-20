@@ -36,11 +36,6 @@ Methods like MakeMove(), CheckWinner(), PrintBoard(), and SwitchPlayer() encapsu
 ✅ Enum Usage
 CellState enum is used to represent each board cell state (Empty, Player1, Player2), improving code readability.
 
-✅ Separation of Concerns
-Program.cs handles user input and starts the game.
-
-Game.cs manages the gameplay logic independently.
-
 🧠 Challenges Faced
 Implementing all win condition checks, especially diagonals.
 
